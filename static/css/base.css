@@ -1,0 +1,18 @@
+body {
+    background-color: #f3f3f3;
+}
+
+.logo {
+    width: 100px;
+}
+
+.main {
+    background-color: #fff;
+    width: 730px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+}
+.page-title {
+    text-align: center;
+}

@@ -1,10 +1,11 @@
 # 命令行文件
 
 from flask_script import Manager
-from flas_migrate import Migrate, MigrateCommand
+from flask_migrate import Migrate, MigrateCommand
 from zingqa import app
 from exts import db
 # 还需要将创建好的模型导入进来
+from models import User
 
 manager = Manager(app)
 
