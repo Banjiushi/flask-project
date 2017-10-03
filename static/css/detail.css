@@ -1,0 +1,39 @@
+.question-info {
+    text-align: center;
+    margin-top: 20px;
+    color: #9b9b9b;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.form-right {
+    text-align: right;
+}
+
+.answer-list li {
+    list-style: none;
+    border-bottom: 1px solid #eee;
+    padding-top: 10px;
+
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-info .username {
+    margin-left: : 20px;
+}
+
+.user-info .create-time {
+    float: right;
+}
+
+.answer-list {
+    padding-left: 0;
+}
+.answer-content {
+    margin-left: 60px;
+} 

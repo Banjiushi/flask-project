@@ -5,7 +5,7 @@ from flask_migrate import Migrate, MigrateCommand
 from zingqa import app
 from exts import db
 # 还需要将创建好的模型导入进来
-from models import User
+from models import User, Question, Answer
 
 manager = Manager(app)
 
