@@ -14,7 +14,7 @@
         {{ question.content }}
     </p>
     <hr>
-    <h4>评论 （{{  question.answers.count('id') }}）</h4>
+    <h4>评论 （{{  num }}）</h4>
     <form action="{{ url_for('add_answer') }}" method="POST">
         <div class="form-group">
             <input type="text" class="form-control" placeholder="请填写评论" name="answer">

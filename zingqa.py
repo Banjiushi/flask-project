@@ -87,7 +87,9 @@ def question():
 @login_required
 def detail(question_id):
     question = Question.query.filter(Question.id==question_id).first()
-    return render_template('detail.html', question=question)
+    quest = Question.query.get(question_id)
+    num = len(quest.answer)
+    return render_template('detail.html', question=question, num=num)
 
 
 @app.route('/add_answer', methods=['POST'])

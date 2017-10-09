@@ -1,4 +1,3 @@
-
 # 数据库模型文件
 from datetime import datetime
 from exts import db
@@ -30,6 +29,7 @@ class Question(db.Model):
     author_id = db.Column(db.Integer, db.ForeignKey('user.id'))
 
     author = db.relationship('User', backref=db.backref('questions'))
+    answer = db.relationship('Answer', backref=db.backref('answer.id'))
 
 
 class Answer(db.Model):
