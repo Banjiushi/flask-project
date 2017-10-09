@@ -13,6 +13,3 @@ c) 项目特色：flask实现，灵活、易扩展；bootstrap搭建，简单易
 ModuleNotFoundError: No module named 'MySQLdb'
 ```
 安装 mysqlclient 后解决
-
-
-评论总数还未解决，等找到方法了再来
